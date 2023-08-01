@@ -1,0 +1,256 @@
+<div class="container-fluid back-ground-shad mt-5">
+    <div class="row">
+        <h1 class=" text-center mt-2">Quotation Details</h1>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="container">
+
+                <div class="row mt-5 d-flex justify-content-center">
+                    <div class="col-3">
+                        <label>FirstName:<input type="text" placeholder="FirstName"></label>
+
+                    </div>
+                    <div class="col-3 ms-5">
+                        <label>MiddleName:<input type="text" placeholder="MiddleName"></label>
+
+                    </div>
+
+                </div>
+
+                <div class="row mt-5  d-flex justify-content-center">
+                    <div class="col-3">
+                        <label>LastName:<input type="text" placeholder="LastName"></label>
+
+                    </div>
+                    <div class="col-3 ms-5">
+                        <label>CustomerId:<input type="text" placeholder="CustomerId"></label>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class="row mt-5  d-flex justify-content-center">
+                    <div class="col-3">
+                        <label>Venue-details:</label>
+                        <div class="dropdown">
+                            <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                *Select-one
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Home</button></li>
+                                <li><button class="dropdown-item" type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Mandapas</button></li>
+                                <li><button class="dropdown-item" type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Open Halls</button></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <label>Customer-budget:<input type="text" placeholder="in number"></label>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <!-- end of the form1 -->
+
+        <div class="col-sm-6 col-md-6 col-lg-6">
+
+            <div class="col-10">
+                <table class="table  table-info table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Service-name</th>
+                            <th scope="col">Platinum</th>
+                            <th scope="col">Gold</th>
+                            <th scope="col">Silver</th>
+                            <th scope="col">Select</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <th scope="row">MD1</th>
+                            <td>Mandapas</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><button class="btn btn-danger btn-sm" (click)="alt()">Select</button></td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">PH2</th>
+                            <td>Photograpy</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><button class="btn btn-danger btn-sm" (click)="alt()">Select</button></td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">BD3</th>
+                            <td>Bride</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><button class="btn btn-danger btn-sm" (click)="alt()">Select</button></td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">BR4</th>
+                            <td>Broom</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><button class="btn btn-danger btn-sm" (click)="alt()">Select</button></td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">TR4</th>
+                            <td>Transport</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><button class="btn btn-danger btn-sm" (click)="alt()">Select</button></td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">FD5</th>
+                            <td>Food</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><button class="btn btn-danger btn-sm" (click)="alt()">Select</button></td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">EV6</th>
+                            <td>Events</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><button class="btn btn-danger btn-sm" (click)="alt()">Select</button></td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">PS7</th>
+                            <td>Purohits</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><button class="btn btn-danger btn-sm" (click)="alt()">Select</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">HT8</th>
+                            <td>Hotels</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><input type="checkbox">2000</td>
+                            <td><button class="btn btn-danger btn-sm" (click)="alt()">Select</button></td>
+                        </tr>
+
+
+
+
+
+
+
+
+
+
+                    </tbody>
+                </table>
+                <p><small class="text-white">*all prices including gst</small></p>
+            </div>
+        </div>
+        <!-- end of the table -->
+
+    </div>
+</div>
+
+
+
+<!-- model -->
+
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-xl modal-dialog-centered  ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="modal-title fs-5" id="exampleModalLabel"> *Give Your venue details </p>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center">
+                <form action="" target="_blank">
+                    <div class="row mt-2">
+                        <div class="col-4">
+                            <label>Start-date:<input type="date"></label>
+
+                        </div>
+                        <div class="col-4">
+                            <label>End-date:<input type="date" class=""></label>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-2">
+                        <div class="col-5">
+                            <label>Place:<input type="text"></label>
+
+                        </div>
+                        <div class="col-5 ">
+                            <label>city:<input type="text"></label>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-2">
+                        <div class="col-6">
+                            <label>Address:<input type="textarea" class="p-3"></label>
+
+                        </div>
+
+                        <div class="col-6">
+                            <label>Pincode:<input type="text"></label>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="mt-2 d-flex justify-content-end">
+                        <input type="submit" value="Edit" class="me-3">
+
+                        <input type="reset" value="Reset" class="me-3">
+
+                    </div>
+
+
+
+                </form>
+            </div>
+            <div>
+
+
+            </div>
+            <button type="button" class="btn btn-danger m-5" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+
+
+<!-- toast -->

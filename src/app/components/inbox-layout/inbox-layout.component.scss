@@ -1,0 +1,124 @@
+.offcanvas{
+  width: 250px;
+  position: absolute;
+  height: 600px;
+}
+
+.move-in{
+
+position: relative;
+}
+
+ .back-ground-dec{
+   background-image: url('https://images5.alphacoders.com/568/568499.jpg');
+   background-size: cover;
+   padding-bottom: 120px;
+  
+}
+
+.sec-1{
+    color: rgb(42, 14, 225);
+    font-weight:bold ;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: start;
+    margin-top: 5px;
+    font-size: smaller;
+    padding-left: 10px;
+    margin-right: 30px;
+}
+
+.sec-2{
+    color: blueviolet;
+   padding-right: 15px;
+   margin-top: -8px;
+   
+    text-align: end;
+    
+   margin-left: 30px;
+    border-radius: 10px;
+    font-size: smaller;
+}
+
+
+.form-inputs{
+    position:relative;
+}
+.form-inputs .form-control{
+    height:45px; 
+}
+
+.form-inputs .form-control:focus{
+    box-shadow:none;
+    border:1px solid #000;
+}
+
+.form-inputs i{
+    position:absolute;
+    right:10px;
+    top:15px;
+}
+.sidebar{
+    background-color: rgb(239, 243, 243); 
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 5px;
+      margin-left: 20px;
+    /*   opacity: 0.9; */
+}
+
+.content{
+     background-color: rgb(243, 238, 244); 
+    height: 500px;
+    margin-left: 40px;
+    border-radius: 20px;
+  /*   opacity: 0.9; */
+    font-weight: bold;
+   
+   
+}
+.list-i{
+    list-style-type: none;
+    padding: 2px;
+    margin: 1px;
+    font-weight: bold;
+    
+}
+.li-j{
+    background-color: rgb(232, 238, 238);
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 2px;
+    text-align: center;
+}
+
+.icon-j{
+    background-color: rgb(240, 13, 13);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+   margin-bottom: 50px;
+   opacity: 0.5;
+   font-weight: bold;
+}
+
+.img-si{
+    height: 40px;
+    width: 40px;
+   
+    border-radius: 50px;
+   
+   
+}
+.li-k{
+    background-color: rgb(243, 243, 246);
+    margin: 20px;
+   padding-top: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+    border-radius: 50px;
+    opacity: 0.5;
+}
+
+

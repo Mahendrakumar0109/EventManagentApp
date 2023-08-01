@@ -1,0 +1,130 @@
+
+<section>
+<div class="container p-3 cnt">
+    <div class="row p-2 "> 
+        <div class=col-3>
+            <div class="dropdown dropdown-dark">
+                <select name="two" class="dropdown-select p-1 rounded-3">
+                  <option value="">categories</option>
+                  <option value="1">Individual</option>
+                  <option value="2">Contractor</option>
+                 
+                </select>
+              </div>
+        </div>
+
+        <div class=col-3>
+            <div class="dropdown dropdown-dark">
+                <select name="two" class="dropdown-select p-1 rounded-3">
+                  <option value="">VendorId</option>
+                  <option value="2">BA00101</option>
+                  <option value="3">BA00102</option>
+                  <option value="4">BA00103</option>
+                  <option value="5">BA00104</option>
+                  <option value="6">BA00105</option>
+                </select>
+              </div>
+        </div>
+
+        <div class=col-3>
+            <div class="dropdown">
+                <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Quatotaion Id
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item " href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">QA1</a></li>
+                  <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">QA2</a></li>
+                  <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">QA2</a></li>
+                  <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">QA2</a></li>
+                  <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">QA2</a></li>
+                </ul>
+              </div>
+        </div>
+        <div class=col-3>
+            <div class="dropdown dropdown-dark">
+                <select name="two" class="dropdown-select p-1 rounded-3">
+                  <option value="">Status</option>
+                  <option value="1">Active</option>
+                  <option value="2">Pending</option>
+                  <option value="3">Disactive</option>
+                </select>
+              </div>
+        </div>
+
+    </div>
+
+</div>
+</section>
+
+
+<!-- modal -->
+<!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Quotation details of QA1</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-md-3 mt-3">
+                    <div class="dropdown dropdown-dark">
+                        <select name="category type" class="dropdown-select p-1 rounded-3">
+                            <option value="">categories</option>
+                          <option value="1">Individual</option>
+                          <option value="2">Contractor</option>
+                          
+                        </select>
+                      </div>
+                </div>
+                <div class="col-md-3">
+                    <label>Id-Number:<input type="text"></label>
+
+                </div>
+                <div class="col-md-3">
+                    <label>customer-ID:<input type="text"></label>
+
+                </div>
+
+                <div class="col-md-3 ">
+                    <label>Cus-Quat-price:<input type="text"></label>
+
+                </div>
+                <div class="col-md-3 mt-3">
+                    <label>contractor-Quat-price:<input type="text"></label>
+
+                </div>
+                <div class="col-md-3 mt-5">
+                    <label>Customer-time:<input type="date"></label>
+
+                </div>
+                <div class="col-md-3 mt-3">
+                   <label class="m-1 p-1">cust-avail-service:<input type="text"></label>
+                   <label class="m-1 p-1">Events <input type="checkbox"></label>
+                   <label class="m-1 p-1"  >BrideMakeups <input type="checkbox"></label>
+                   <label class="m-1 p-1">Food <input type="checkbox"></label>
+                   <label class="m-1 p-1">Mandapam <input type="checkbox"></label>
+                   <label class="m-1 p-1">Transport <input type="checkbox"></label>
+                   <label class="m-1 p-1">Hotels<input type="checkbox"></label>
+                   <label class="m-1 p-1">photography<input type="checkbox"></label>
+                   <label class="m-1 p-1">Select All<input type="checkbox"></label>
+                </div>
+                
+
+
+                </div>
+
+            </div>
+        
+        </div>
+        <div>
+          <button type="button" class="btn btn-danger m-3">Edit</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">close</button>
+        </div>
+      </div>
+    </div>
+  
